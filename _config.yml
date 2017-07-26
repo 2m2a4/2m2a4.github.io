@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: 2+2=4
 email: doktordroid@protonmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   "A szabadság az, ha szabadságunkban áll kimondani, hogy kettő meg kettő négy.
    Ha ezt megtehetjük, minden egyéb magától következik." - George Orvell, 1984
-baseurl: "/2meg2az4" # the subpath of your site, e.g. /blog
-url: "https://doktordroid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2meg2az4"
+url: "https://doktordroid.github.io"
 twitter_username: doktor_droid
 github_username:  doktordroid
 
@@ -28,6 +28,3 @@ markdown: kramdown
 # theme: minima
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
