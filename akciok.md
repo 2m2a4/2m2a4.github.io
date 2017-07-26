@@ -2,6 +2,7 @@
 layout: page
 title: "Akciók"
 permalink: /akciók/
+order: 2
 ---
 
 ## Lokálozás

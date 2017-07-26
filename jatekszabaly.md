@@ -2,6 +2,7 @@
 layout: page
 title: Játékszabály
 permalink: /jatekszabaly/
+order: 1
 ---
 
 > A támogatás egyetlen módja a részvétel.
