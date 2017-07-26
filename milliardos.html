@@ -1,0 +1,264 @@
+---
+title: "Milliárdos"
+permalink: /milliardos/
+---
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <style media="screen">
+    html {
+      font-family: 'Asap', sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      color: #c0c0c0;
+    }
+
+    body {
+      height: 100%;
+      width: 100%;
+      background: radial-gradient(circle, #303030, #101010) fixed;
+      background: #202020;
+      margin: 0;
+    }
+
+    #main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -66%);
+      text-align: center;
+      width: 66%;
+    }
+
+    a {
+      color: #b0c0ff;
+      text-decoration-color: #506080;
+    }
+
+    select {
+      margin: 0px;
+      border: transparent;
+      background: transparent;
+      padding: 0px;
+      font-family: 'Asap', sans-serif;
+      font-weight: 600;
+      font-size: 40px;
+      color: #C0C0C0;
+      border: 0px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    .nowrap {
+      white-space: nowrap;
+    }
+
+    @keyframes koltsegAnim {
+      from {
+        color: #808080;
+      }
+      to {
+        color: #f0d0d0;
+      }
+    }
+
+    #koltsegSelect {
+      width: 396px;
+      animation-name: koltsegAnim;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes egysegarAnim {
+      from {
+        color: #808080;
+      }
+      to {
+        color: #d8f0d8;
+      }
+    }
+
+    #egysegarSelect {
+      width: 348px;
+      animation-name: egysegarAnim;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+    }
+
+    #width_tmp_select {
+      display: none;
+    }
+
+    #logo {
+      position: absolute;
+      right: 10px;
+      bottom: 5px;
+    }
+
+    #logosvg {
+      height: 0.75em;
+    }
+
+    .blsh {
+      position: relative;
+      bottom: 0.07em;
+    }
+
+    #ezmegmi {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      font-size: 0.666em;
+      color: #707070;
+      cursor: pointer;
+    }
+
+    #help {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -66%);
+      width: 30%;
+      font-size: 0.5em;
+      color: #e0e0e0;
+      border-style: solid;
+      border-color: #c0c0c0;
+      border-width: 0.1em;
+      border-radius: .333em;
+      padding: 0 1em 0.5em 1em;
+      background-color: rgba(24, 24, 24, 0.9);
+      display: none;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script language="javascript">
+    maglist = ["", "ezer", "millió", "milliárd", "billió"]
+
+    function initSentence() {
+      $('#koltsegSelect').change(function() {
+        $("#width_tmp_option").html($('#koltsegSelect option:selected').text());
+        $(this).width($("#width_tmp_select").width());
+      });
+      $('#egysegarSelect').change(function() {
+        $("#width_tmp_option").html($('#egysegarSelect option:selected').text());
+        $(this).width($("#width_tmp_select").width());
+      });
+
+      $("#ezmegmi, #help").click(function() {
+        $("#help").fadeToggle();
+      });
+
+      element = document.getElementById("koltsegSelect");
+      koltseg = element.options[element.selectedIndex].value;
+      onKoltsegChange(koltseg);
+      element = document.getElementById("egysegarSelect");
+      egysegar = element.options[element.selectedIndex].value;
+      onEgysegarChange(egysegar);
+      updateDarab();
+    }
+
+    function onEgysegarChange(value) {
+      va = value.split("|");
+      magnitude = Math.floor(Math.log10(va[0]) / 3);
+      $("#egysegar").html(va[0] / Math.pow(10, magnitude * 3) + " " + maglist[magnitude] + " Ft");
+      $("#egysegar").attr("href", va[2]);
+      $("#venni").html(va[1]);
+      updateDarab();
+      $("#egysegarSelect").blur();
+    }
+
+    function onKoltsegChange(value) {
+      va = value.split("|");
+      $("#koltseg").html(va[1] + " milliárd Ft");
+      $("#koltseg").attr("href", va[3]);
+      $("#nevelo").html(va[0]);
+      $("#kerul").html(va[2]);
+      updateDarab();
+      $("#koltsegSelect").blur();
+    }
+
+    function updateDarab() {
+      koltseg = $("#koltsegSelect").val().split("|")[1];
+      egysegar = $("#egysegarSelect").val().split("|")[0];
+      darab = koltseg * 1000000000 / egysegar;
+      magnitude = Math.floor(Math.log10(darab) / 3);
+      document.getElementById("darab").innerHTML = "" + Math.round((darab / Math.pow(10, magnitude * 3)) * 10) / 10 + " " + maglist[magnitude];
+    }
+  </script>
+</head>
+
+<body onload="initSentence()">
+  <section id="main">
+    <form>
+      <span id="nevelo">A</span>
+      <select id="koltsegSelect" onchange="onKoltsegChange(this.value)" autocomplete="off">
+      <option selected value="A|3.4|került|http://24.hu/belfold/2017/07/06/a-vizes-vb-megnyitoja-14-milliarddal-tobbe-kerul-mint-a-sziget-nagyszinpada-az-osszes-fellepovel">vizes vb megnyitója</option>
+      <option value="A|140|került|http://www.atv.hu/belfold/20170503-tullepte-a-140-milliardot-a-vizes-vb-koltsege">vizes vb</option>
+      <option value="Az|266.4|kerültek|http://hvg.hu/gazdasag/20170630_Erre_koltik_Matolcsy_alapitvanyai_a_kozpenzunket">MNB alapítványai</option>
+      <option value="|3700|fog kerülni|http://index.hu/belfold/2014/01/15/paks_ii-bol_megepithetnenk_ujra_a_csalagutat">Paks II.</option>
+      <option value="A|5.7|került|https://mno.hu/belfold/kiverte-a-biztositekot-a-kormany-legujabb-plakatkampanya-2406027">Soros kampány</option>
+      <option value="A|3.1|került|https://atlatszo.hu/2017/05/31/3-milliard-forintot-koltott-a-kormany-a-propagandagepre-a-magyarorszag-erosodik-kampanyban/">&quot;Magyarország erősödik&quot; kampány</option>
+      <option value="A|10|került|http://hirtv.hu/ahirtvhirei/rekordosszegeket-kolt-iden-a-kormany-propagandara-1398678">Kvóta népszavazás kampánya</option>
+      <option value="A|190|kerül|http://index.hu/sport/futball/2017/07/12/hogy_all_a_190_milliardos_puskas_stadion/">Puskás stadion</option>
+      <option value="A|13.5|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Nagyerdei Stadion</option>
+      <option value="A|19.5|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Groupama Aréna</option>
+      <option value="A|2|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Tiszaligeti Stadion</option>
+      <option value="A|0.6|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Alkufer Stadion</option>
+      <option value="A|1.25|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Mezőkövesdi Városi Stadion</option>
+      <option value="A|0.64|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Balmazújvárosi Városi Sportpálya</option>
+    </select>
+      <a id="koltseg" href="" onclick="this.blur();" target="_blank">12.3</a> közpénzbe <span id="kerul">került</span>, amiből
+      <span id="darab" class="nowrap">12.3</span>
+      <select id="egysegarSelect" onchange="onEgysegarChange(this.value)" autocomplete="off">
+      <option value="12500000|beindítani|https://palyaz.hu/mikrovallalkozasok-inditasanak-tamogatasa-palyazat/">mikro vállalkozást</option>
+      <option value="100000000|beindítani">kis vállalkozást</option>
+      <option value="1000000000|beindítani">középvállalkozást</option>
+      <option value="840000000|telepíteni|http://naperomu.hu/s_!prods/i_komplett_rendszerek_9/i_napelem_park_1_mw_32/t_NAPELEM%20PARK%201%20MW%20-%20Komplett%20rendszerek/index.html">1 Mw-os naperőművet</option>
+      <option value="500000000|telepíteni|http://hvg.hu/gazdasag/20130805_Tul_eros_a_szel_Fizess">1 Mw-os szélerőművet</option>
+      <option value="200000|építeni|http://koos.hu/2016/06/18/magyarorszagi-fajlagos-lakasepitesi-koltsegek">nm családi házat</option>
+      <option value="1400000000|építeni|http://www.portfolio.hu/vallalatok/egy_km_autopalya_79_mrd_forintert.184627.html">km autópályát</option>
+      <option value="2000000000|építeni|http://index.hu/gazdasag/magyar/2010/03/05/nyolc_percert_137_milliard_forint/">km modern vasútvonalat</option>
+      <option selected value="4500000|venni|http://www.kecskemeti-hirhatar.hu/galeria/adomanyokbol-gyult-ossze-egy-lelegeztetogep-ara-kecskemeten">lélegeztetőgépet</option>
+      <option value="150000000|venni|https://info.blockimaging.com/bid/84432/ct-scanner-price-guide">CT berendezést</option>
+      <option value="500000|telepíteni|http://www.aee.hu/downloads/2015/Forum2015/FM_Allami_Foldekert_Erdotelepites.pdf">hektár erdőt</option>
+      <option value="288900|kifizetni|https://www.ksh.hu/docs/hun/xftp/gyor/ker/ker1705.html">havi átlagkeresetet</option>
+      <option value="127500|kifizetni|http://officina.hu/gazdasag/157-minimalber-2017">havi minimálbért</option>
+      <option value="500000|kifizetni|http://to.ttk.elte.hu/koltsegterites">féléves egyetemi tandíjat</option>
+      <option value="182500|kifizetni|http://eduline.hu/kozoktatas/2013/12/9/Itt_vannak_az_arak_ennyibe_fog_kerulni_a_me_JS73P4">gyermek éves étkeztetését</option>
+      <option value="300|enni|https://www.gyakorikerdesek.hu/etelek-italok__egyeb-kerdesek__6571807-a-mcdonalds-ban-mennyibe-kerul-egy-sajtburger-az-oldalukon-nincs-fent-az-ara-l">sajtburgert</option>
+      <option value="200000|venni|http://www.ksh.hu/docs/hun/xstadat/xstadat_evkozi/e_qsf005j.html">tonna krumplit</option>
+    </select> <span class="nowrap">
+      (<a id="egysegar" href="" onclick="this.blur();" target="_blank">1</a>)</span> lehetett volna <span id="venni">venni</span>.
+      <select id="width_tmp_select">
+      <option id="width_tmp_option"></option>
+    </select>
+    </form>
+  </section>
+  <div id="logo">
+    <a id="logolink" href="https://doktordroid.github.io/2meg2az4/" target="_blank">
+      <img id="logosvg" src="https://doktordroid.github.io/2meg2az4/assets/2m2_logo_rgb707070.svg">
+    </a>
+  </div>
+  <div id="ezmegmi">Ez meg mi?</div>
+  <div id="help">
+    <p>
+      A <b>Milliárdos</b> egy egyszerű alkalmazás, melynek segítségével érzékelhetővé
+      kívánjuk tenni mennyi egy milliárd forint. A villogó mondatrészekkel tudod
+      kiválasztani milyen nagyobb összeget kívánsz átváltani valami másnak az árára.
+      A számszerű összegek forrás és háttéranyagokra mutatnak.
+    </p>
+    <p>
+      Ez az app - csakúgy mint a 2+2=4 kampány többi része - nyílt forráskódú.
+      Ötleteket, javaslatokat és pull request-eket örömmel fogadunk! A támogatásnak
+      nincs más módja, mint a részvétel.
+    </p>
+  </div>
+</body>
+
+</html>
