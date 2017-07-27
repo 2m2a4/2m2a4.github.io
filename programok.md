@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Akciók"
-permalink: /akciók/
+title: "Programok"
+permalink: /programok/
 order: 2
 ---
 
@@ -9,12 +9,13 @@ order: 2
 
 # Program
 
-    1. Keress egy terjesztőt
-    2. Kérjél tőle egy Lokál magazint
-    3. Tépd össze úgy hogy mások is lássák
-    4. Dobd ki egy megfelelő szemetesbe
-    5. Ha valaki megkérdezi miért tetted mindezt,
-       azt mondod udvariasan:
+    1. A játékos keres egy terjesztőt.
+    2. Kér tőle egy példány Lokál magazint.
+    3. Összetépi, lehetőleg úgy hogy mások is lássák.
+    4. A keletkezett szemetet kidobja egy erre alkalmas szemetesbe.
+
+    A. Ha valaki megkérdezi tőle, miért tette mindezt,
+       azt feleli udvariasan:
           "Mert hazugságokat terjesztenek benne közpénzen."
 
 # Miért?
@@ -33,6 +34,17 @@ vele amit jónak látsz.
 * * *
 
 ## Takarítás
+
+# Program
+
+    1. A játékos keres egy állami propaganda matricát.
+    2. Alaposan, nyom nélkül leszedi.
+    3. A keletkezett szemetet kidobja egy erre alkalmas szemetesbe.
+
+    A. Ha valaki megkérdezi tőle, miért tette mindezt,
+       azt feleli udvariasan:
+          "Mert hazugságokat terjesztenek rajta közpénzen."
+
 
 [web]: https://doktordroid.github.io/2meg2az4
 [gh]: https://github.com/doktordroid/2meg2az4
