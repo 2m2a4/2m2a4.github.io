@@ -2,6 +2,7 @@
 layout: page
 title: Matricák
 permalink: /matricak/
+order: 3
 ---
 
 Matricák még nincsenek. A site még a fejlesztés olyan korai szakaszában van,
