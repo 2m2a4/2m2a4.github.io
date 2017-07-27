@@ -69,7 +69,6 @@ order: 4
     }
 
     #koltsegSelect {
-      width: 396px;
       animation-name: koltsegAnim;
       animation-duration: 0.5s;
       animation-iteration-count: infinite;
@@ -86,7 +85,6 @@ order: 4
     }
 
     #egysegarSelect {
-      width: 348px;
       animation-name: egysegarAnim;
       animation-duration: 0.5s;
       animation-iteration-count: infinite;
@@ -143,24 +141,13 @@ order: 4
     maglist = ["", "ezer", "millió", "milliárd", "billió"]
 
     function initSentence() {
-      $('#koltsegSelect').change(function() {
-        $("#width_tmp_option").html($('#koltsegSelect option:selected').text());
-        $(this).width($("#width_tmp_select").width());
-      });
-      $('#egysegarSelect').change(function() {
-        $("#width_tmp_option").html($('#egysegarSelect option:selected').text());
-        $(this).width($("#width_tmp_select").width());
-      });
-
       $("#ezmegmi, #help").click(function() {
         $("#help").fadeToggle();
       });
 
-      element = document.getElementById("koltsegSelect");
-      koltseg = element.options[element.selectedIndex].value;
+      koltseg = $("#koltsegSelect").val();
       onKoltsegChange(koltseg);
-      element = document.getElementById("egysegarSelect");
-      egysegar = element.options[element.selectedIndex].value;
+      egysegar = $("#egysegarSelect").val();
       onEgysegarChange(egysegar);
       updateDarab();
     }
@@ -173,16 +160,22 @@ order: 4
       $("#venni").html(va[1]);
       updateDarab();
       $("#egysegarSelect").blur();
+
+      $("#width_tmp_option").html($('#egysegarSelect option:selected').text());
+      $("#egysegarSelect").width($("#width_tmp_select").width());
     }
 
     function onKoltsegChange(value) {
       va = value.split("|");
-      $("#koltseg").html(va[1] + " milliárd Ft");
+      $("#koltseg").html(va[1] + " milliárd");
       $("#koltseg").attr("href", va[3]);
       $("#nevelo").html(va[0]);
       $("#kerul").html(va[2]);
       updateDarab();
       $("#koltsegSelect").blur();
+
+      $("#width_tmp_option").html($('#koltsegSelect option:selected').text());
+      $("#koltsegSelect").width($("#width_tmp_select").width());
     }
 
     function updateDarab() {
@@ -215,7 +208,7 @@ order: 4
       <option value="A|1.25|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Mezőkövesdi Városi Stadion</option>
       <option value="A|0.64|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Balmazújvárosi Városi Sportpálya</option>
     </select>
-      <a id="koltseg" href="" onclick="this.blur();" target="_blank">12.3</a> közpénzbe <span id="kerul">került</span>, amiből
+      <a id="koltseg" href="" onclick="this.blur();" target="_blank"></a> forintba <span id="kerul">került</span>, amiből
       <span id="darab" class="nowrap">12.3</span>
       <select id="egysegarSelect" onchange="onEgysegarChange(this.value)" autocomplete="off">
       <option value="12500000|beindítani|https://palyaz.hu/mikrovallalkozasok-inditasanak-tamogatasa-palyazat/">mikro vállalkozást</option>
@@ -226,18 +219,18 @@ order: 4
       <option value="200000|építeni|http://koos.hu/2016/06/18/magyarorszagi-fajlagos-lakasepitesi-koltsegek">nm családi házat</option>
       <option value="1400000000|építeni|http://www.portfolio.hu/vallalatok/egy_km_autopalya_79_mrd_forintert.184627.html">km autópályát</option>
       <option value="2000000000|építeni|http://index.hu/gazdasag/magyar/2010/03/05/nyolc_percert_137_milliard_forint/">km modern vasútvonalat</option>
-      <option selected value="4500000|venni|http://www.kecskemeti-hirhatar.hu/galeria/adomanyokbol-gyult-ossze-egy-lelegeztetogep-ara-kecskemeten">lélegeztetőgépet</option>
+      <option value="4500000|venni|http://www.kecskemeti-hirhatar.hu/galeria/adomanyokbol-gyult-ossze-egy-lelegeztetogep-ara-kecskemeten">lélegeztetőgépet</option>
       <option value="150000000|venni|https://info.blockimaging.com/bid/84432/ct-scanner-price-guide">CT berendezést</option>
       <option value="500000|telepíteni|http://www.aee.hu/downloads/2015/Forum2015/FM_Allami_Foldekert_Erdotelepites.pdf">hektár erdőt</option>
       <option value="288900|kifizetni|https://www.ksh.hu/docs/hun/xftp/gyor/ker/ker1705.html">havi átlagkeresetet</option>
       <option value="127500|kifizetni|http://officina.hu/gazdasag/157-minimalber-2017">havi minimálbért</option>
       <option value="250000|venni|http://www.argep.hu/main.aspx?suche=iphone&sort=preis-">hipszter telefont</option>
       <option value="500000|kifizetni|http://to.ttk.elte.hu/koltsegterites">féléves egyetemi tandíjat</option>
-      <option value="182500|kifizetni|http://eduline.hu/kozoktatas/2013/12/9/Itt_vannak_az_arak_ennyibe_fog_kerulni_a_me_JS73P4">gyermek éves étkeztetését</option>
+      <option selected value="182500|fedezni|http://eduline.hu/kozoktatas/2013/12/9/Itt_vannak_az_arak_ennyibe_fog_kerulni_a_me_JS73P4">gyermek éves étkeztetését</option>
       <option value="300|enni|https://www.gyakorikerdesek.hu/etelek-italok__egyeb-kerdesek__6571807-a-mcdonalds-ban-mennyibe-kerul-egy-sajtburger-az-oldalukon-nincs-fent-az-ara-l">sajtburgert</option>
       <option value="200000|venni|http://www.ksh.hu/docs/hun/xstadat/xstadat_evkozi/e_qsf005j.html">tonna krumplit</option>
     </select> <span class="nowrap">
-      (<a id="egysegar" href="" onclick="this.blur();" target="_blank">1</a>)</span> lehetett volna <span id="venni">venni</span>.
+      (<a id="egysegar" href="" onclick="this.blur();" target="_blank">1</a>)</span> lehetett volna <span id="venni"></span>.
       <select id="width_tmp_select">
       <option id="width_tmp_option"></option>
     </select>
