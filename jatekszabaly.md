@@ -33,9 +33,13 @@ Az alapvető közéleti magatartásformák melyeket **támogatunk**:
   * empátia
   * figyelem
   * szakértelem
+  * a környezet védelme
+  * költséghatékonyság
+  * nyílt forráskódú szoftverek használata
 
 Az alapvető közéleti magatartásformák melyek ellen **küzdünk**:
 
+  * ostobaság
   * hazugság
   * félreinformálás
   * álhírek terjesztése
@@ -46,23 +50,24 @@ Az alapvető közéleti magatartásformák melyek ellen **küzdünk**:
   * rasszizmus
   * antidemokratikus döntéshozatal
   * gyűlöletkeltés
+  * a környezet szennyezése
 
 Meggyőződésünk, hogy egy társadalomban minél többen értik meg, miért azok a
-társadalmak a legvonzóbbak, melyekben követik az általunk is támogatott
+társadalmak vonzóbbak, melyekben követik az általunk is támogatott
 magatartásformákat, és minél többen építik bele saját elvárásrendszerükbe
 ezeket, annál hamarabb lesz az adott társadalom élhető: kiegyensúlyozott,
 fejlődő és vidám.
 
-Még tömörebben fogalmazva, a 2+2=4 kampány elsődleges célja a *politikai
-kereslet* színvonalának emelése.
+Máshogy megfogalmazva, a 2+2=4 kampány célja a *politikai kereslet*
+színvonalának emelése.
 
 # Eszközök
 
 A kampány háromféle eszközt és ezek kombinációját alkalmazza céljai eléréséhez:
 
+  * programokat
   * matricákat
   * webes tartalmakat
-  * akciókat
 
 A matricákat utcai megjelenésre, a webes tartalmakat üzeneteink bővebb
 kifejtésére és szemléltetésére, míg az akciókat figyelemfelkeltésre és az
@@ -75,7 +80,7 @@ A játékban mindenki saját felelőségére vesz részt.
 A weboldal tartalmát közösen fejlesztjük. Ha észrevételed, javaslatod, ötleted,
 építő jellegű kritikád van azt a játék [Github oldalán][gh] jelezheted az
 [issue tracker][tracker] segítségével, vagy ha az nem megfelelő neked akkor
-küldhetsz emailt a <doktordroid@protonmail.com> címre is.
+küldhetsz üzenetet és patch-eket a <doktordroid@protonmail.com> címre is.
 
 Ha tudod használni a Git-et és/vagy a Github-ot akkor még közvetlenebbül tudsz
 résztvenni a játékban. Sokszor könnyebb megcsinálni a kívánt változtatást, mint
@@ -84,6 +89,6 @@ moderátorok pedig eldöntik, elfogadják-e a javasolt változtatásodat. Ha nem
 tudod használni a Git-et és/vagy a Github-ot, akkor tanuld meg. Jól jársz vele.
 
 
-[web]: https://doktordroid.github.io/2meg2az4
-[gh]: https://github.com/doktordroid/2meg2az4
-[tracker]: https://github.com/doktordroid/2meg2az4/issues
+[web]: https://doktordroid.github.io/2m2a4
+[gh]: https://github.com/doktordroid/2m2a4
+[tracker]: https://github.com/doktordroid/2m2a4/issues

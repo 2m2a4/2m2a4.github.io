@@ -18,11 +18,22 @@ email: doktordroid@protonmail.com
 description: >
   "A szabadság az, ha szabadságunkban áll kimondani, hogy kettő meg kettő négy.
    Ha ezt megtehetjük, minden egyéb magától következik." - George Orvell, 1984
-baseurl: "/2meg2az4"
+baseurl: "/2m2a4"
 url: "https://doktordroid.github.io"
 author: Doktor Droid
-twitter_username: doktor_droid
 github_username:  doktordroid
+
+defaults:
+  - scope:
+      path: "_matricak"
+      type: matricak
+    values:
+      layout: page
+
+collections:
+  matricak:
+    output: true
+    permalink: /m/:name
 
 # Build settings
 markdown: kramdown

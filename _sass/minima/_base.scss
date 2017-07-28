@@ -85,6 +85,29 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  @include relative-font-size(2);
+}
+
+h4 {
+  @include relative-font-size(1.4);
+}
+
+h5 {
+  @include relative-font-size(1.2);
+}
+
+h6 {
+  @include relative-font-size(1.1);
+}
 
 
 /**
