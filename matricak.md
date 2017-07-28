@@ -9,4 +9,4 @@ order: 3
 ---
 Itt találsz mindent, ami [**Matricázáshoz**][matricazas] kell.
 
-[matricazas]: {{ site.url }/programok/
+[matricazas]: {{ site.url }}/programok/
