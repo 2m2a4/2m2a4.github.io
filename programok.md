@@ -80,6 +80,6 @@ vele amit jónak látsz.
           "Mert hazugságokat terjesztenek rajta közpénzen."
 
 
-[web]: https://doktordroid.github.io/2m2a4
-[gh]: https://github.com/doktordroid/2m2a4
-[tracker]: https://github.com/doktordroid/2m2a4/issues
+[web]: https://2m2a4.github.io/
+[gh]: https://github.com/2m2a4/2m2a4.github.io
+[tracker]: https://github.com/2m2a4/2m2a4.github.io/issues

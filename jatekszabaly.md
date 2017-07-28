@@ -89,6 +89,6 @@ moderátorok pedig eldöntik, elfogadják-e a javasolt változtatásodat. Ha nem
 tudod használni a Git-et és/vagy a Github-ot, akkor tanuld meg. Jól jársz vele.
 
 
-[web]: https://doktordroid.github.io/2m2a4
-[gh]: https://github.com/doktordroid/2m2a4
-[tracker]: https://github.com/doktordroid/2m2a4/issues
+[web]: https://2m2a4.github.io
+[gh]: https://github.com/2m2a4/2m2a4.github.io
+[tracker]: https://github.com/2m2a4/2m2a4.github.io/issues
