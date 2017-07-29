@@ -47,7 +47,18 @@ img {
   vertical-align: middle;
 }
 
+.sticker {
+  border-style: solid;
+  border-color: #424242;
+  border-width: 1px;
+  box-shadow: 2px 2px 1px #888888;
+}
 
+.small-sticker {
+  @extend .sticker;
+  max-width: 66%;
+  margin: 0px 10px 10px 0;
+}
 
 /**
  * Figures

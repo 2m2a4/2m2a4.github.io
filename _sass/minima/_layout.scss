@@ -179,6 +179,11 @@
   padding: $spacing-unit 0;
 }
 
+.post-excerpt {
+  margin-bottom: $spacing-unit / 4;
+  clear: both;
+}
+
 .page-heading {
   @include relative-font-size(1.25);
 }
