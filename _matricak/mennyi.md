@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: matrica
 title: "Mennyi?"
 date: 2017-07-28 04:00:00 +0200
 categories: sticker
+snum: 2
+permalink: /m/2
+excerpt: "A Milliárdos app hivatalos matricája. Nem éles még, csak teszt miatt van kint."
 ---
-![Mennyi? - 1A]({{ site.url}}/assets/mennyi_1A.svg)
-
 <span style="color:red">**Légyszi még ne ragaszd ki nyilvános helyre!**</span>
 Azért van pirossal áthúzva mert még nem élesítettük ezt a kampányt. Tesztelésre,
 othon lakásban használhatod.

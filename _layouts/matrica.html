@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% assign base = page.path | split: "/" | last | remove: ".md" %}
+<article class="post">
+
+  <header class="post-header">
+    <img class="sticker" src="{{ site.url }}/assets/matricak/{{ base }}/{{ base }}_A.svg">
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
