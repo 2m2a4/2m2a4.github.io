@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: matrica
 title: "Mennyi?"
 date: 2017-07-28 04:00:00 +0200
 categories: sticker

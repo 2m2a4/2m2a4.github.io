@@ -3,7 +3,7 @@ layout: post
 title: "Ingyenesezés"
 date: 2017-07-28 04:00:00 +0200
 categories: program
-permalink: /m/2
+permalink: /p/2
 excerpt: >
   Az *ingyenesezés* az ingyenes szóróanyagokban terjesztett kormánypropaganda
   elleni fellépés felemelő eszköze.

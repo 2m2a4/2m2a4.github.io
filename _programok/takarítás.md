@@ -3,7 +3,7 @@ layout: programok
 title: "Takarítás"
 date: 2017-07-28 04:00:00 +0200
 categories: program
-permalink: /m/3
+permalink: /p/3
 excerpt: >
   A *takarítás* a közösségi tereink mentálhigiéniás karbantartásának hasznos és
   egyben szórakoztató módja.

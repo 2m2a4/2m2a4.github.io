@@ -3,7 +3,7 @@ layout: post
 title: "Matricázás"
 date: 2017-07-28 04:00:00 +0200
 categories: program
-permalink: /m/1
+permalink: /p/1
 excerpt: >
   A *matricázás* a játék utcai jelenlétének eszköze. Minden matricán szerepel egy
   *üzenet*, egy *QR kód*, ami a játék weboldalára mutat vissza és a játék logója.

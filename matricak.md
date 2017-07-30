@@ -4,6 +4,6 @@ title: "Matricák"
 permalink: /matricak/
 order: 3
 ---
-Itt találsz mindend nyomdai anyagot, ami [**Matricázáshoz**][matricazas] kell.
+Itt találsz mindend nyomdai anyagot, ami [*matricázáshoz*][matricazas] kell.
 
-[matricazas]: {{ site.url }}/programok/
+[matricazas]: /p/1

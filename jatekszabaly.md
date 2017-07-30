@@ -21,7 +21,7 @@ A játékot nem lehet pénzzel támogatni. Ha bárki pénzt kér tőled azért m
 vesz ebben a játékban, tudhatod, hogy ő nem ezt játékot játsza, hanem visszaél a
 játék nevével és annak a pénzszerzéstől teljesen távol álló céljaival. A játék
 teljesen decentralizált, így annak költségeit is decentralizáljuk. Ha ennek
-gyakorlatáról többet szeretnél tudni olvasd el a [Matricázás][programok]
+gyakorlatáról többet szeretnél tudni olvasd el a [*matricázás*][matricazas]
 programot.
 
 A weboldal fenntartásának nincs anyagi vonzata. Az oldalon csak statikus
@@ -129,4 +129,4 @@ keresztül, később, ha van kedved rendesen *git*-el.
 [web]: https://2m2a4.github.io
 [gh]: https://github.com/2m2a4/2m2a4.github.io
 [tracker]: https://github.com/2m2a4/2m2a4.github.io/issues
-[programok]: /programok
+[matricazas]: /p/1
