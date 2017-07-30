@@ -4,7 +4,8 @@
     {% assign default_paths = site.pages | sort:"order" | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">
-      <img id="logosvg" src="{{ site.url }}/assets/2m2_logo_rgb424242.svg">
+      {% assign red = "rgb424242" %}{% if site.url != "https://2m2a4.github.io" %}{% assign red = "red" %}{% endif %}
+      <img id="logosvg" src="{{ site.url }}/assets/2m2_logo_{{ red }}.svg">
     </a>
 
     {% if page_paths %}
