@@ -19,7 +19,8 @@ defaults:
 collections:
   matricak:
     output: true
-    permalink: /m/:name
+  programok:
+    output: true
 
 # Build settings
 markdown: kramdown

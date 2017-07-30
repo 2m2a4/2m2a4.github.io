@@ -18,11 +18,16 @@ kívánatosnak tartják. A kampány egy [weboldal][web] köré szerveződik és 
 # Pénz
 
 A játékot nem lehet pénzzel támogatni. Ha bárki pénzt kér tőled azért mert részt
-vesz ebben a játékban, tudhatod, hogy ő nem ebben a játékban játszik, hanem
-visszaél a játék nevével és a pénzszerzéstől teljesen távol álló céljaival. A
-játék teljesen decentralizált, így a költségeket is a lehető legjobban
-decentralizáljuk. Ha ennek gyakorlatáról többet akarsz tudni olvasd el a
-[Matricázás][programok] programot.
+vesz ebben a játékban, tudhatod, hogy ő nem ezt játékot játsza, hanem visszaél a
+játék nevével és annak a pénzszerzéstől teljesen távol álló céljaival. A játék
+teljesen decentralizált, így annak költségeit is decentralizáljuk. Ha ennek
+gyakorlatáról többet szeretnél tudni olvasd el a [Matricázás][programok]
+programot.
+
+A weboldal fenntartásának nincs anyagi vonzata. Az oldalon csak statikus
+tartalmak vannak, és ezeket a Github - csakúgy mint mindenki másnak - ingyenesen
+hozzáférhetővé teszi. A játék saját domain névvel sem rendelkezik. Ez tudatos
+döntés volt és így is marad.
 
 # Célok
 
@@ -87,8 +92,8 @@ A kampány háromféle eszközt és ezek kombinációját alkalmazza céljai el�
   * webes tartalmakat
 
 A matricákat utcai megjelenésre, a webes tartalmakat üzeneteink bővebb
-kifejtésére és szemléltetésére, míg az akciókat figyelemfelkeltésre és az
-általunk károsnak vélt magatartásformák ellen való fellépésre használjuk.
+kifejtésére és szemléltetésére, míg a programokat figyelemfelkeltésre és az
+általunk károsnak tartott magatartásformák ellen való fellépésre használjuk.
 
 # Részvétel
 
@@ -106,7 +111,7 @@ akkor egy **másik játékot játszol**.
 
 A weboldal tartalmát közösen fejlesztjük a nyílt forráskódú szoftverfejlesztés
 bevett eszköztárát használva. Ha észrevételed, javaslatod, ötleted, építő
-jellegű kritikád van azt a játék [Github oldalán][gh] jelezheted az [issue
+jellegű kritikád van, azt a játék [Github oldalán][gh] jelezheted az [issue
 tracker][tracker] segítségével, vagy ha az nem megfelelő neked akkor küldhetsz
 üzenetet és patch-eket a <doktordroid@protonmail.com> címre is. Fontos, hogy
 mielőtt új *issue*-t nyitsz, megnézd más nem tette-e meg korábban helyetted. A
@@ -115,7 +120,7 @@ munkánkat.
 
 Sokszor könnyebb megcsinálni a kívánt változtatást, mint elmagyarázni valakinek
 mit is szeretnél. Ha segíteni akarsz, akkor szintén az [issue
-tracker][tracker]-en kell keresned elvégzendő feladatot magadnak.
+tracker][tracker]-en kell keresned testhezálló feladatokat magadnak.
 
 A játék fejlesztésében való aktív és közvetlen részvételben hatalmas hasznodra
 válhat, ha megtanulod használni a Github-ot, először a webinterface-en
