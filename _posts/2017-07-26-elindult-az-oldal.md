@@ -3,6 +3,7 @@ layout: post
 title: "Elindult az oldal"
 date: 2017-07-26 02:25:50 +0200
 categories: site update
+author: Doktor Droid
 ---
 Elindítottuk a játék oldalát. Egyelőre nem hirdetjük, mert még csak teszteljük a
 koncepciót és a megvalósítás eszközeit, valamint a tartalmak sem érettek még a

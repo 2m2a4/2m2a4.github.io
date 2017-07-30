@@ -3,6 +3,7 @@ layout: post
 title: "Végleges URL és hitelesítés"
 date: 2017-07-28 20:00:00 +0200
 categories: site update
+author: Doktor Droid
 ---
 Nagy nehezen megtaláltuk a játék oldalának végleges URL-jét. A mi esetünkben
 ennek azért van különösebb jelentősége, mert csak és kizárólag az ezen URL alatt
