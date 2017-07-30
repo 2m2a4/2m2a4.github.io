@@ -57,6 +57,7 @@ img {
 .small-sticker {
   @extend .sticker;
   max-width: 66%;
+  max-height: $spacing-unit * 5;
   margin: 0px 10px 10px 0;
 }
 

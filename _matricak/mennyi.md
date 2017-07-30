@@ -8,9 +8,11 @@ excerpt: >
   A Milliárdos app hivatalos matricája. Nem éles még, csak tesztelési céllal
   van kint.
 ---
-<span style="color:red">**Légyszi még ne ragaszd ki nyilvános helyre!**</span>
-Azért van pirossal áthúzva mert még nem élesítettük ezt a kampányt. Tesztelésre,
-otthon lakásban használhatod.
 
-Ez a "Milliárdos" appunk hivatalos matricája. Másik érdekessége, hogy ez a 2+2=4
-projekt első hivatalos matricája.
+### Megjegyzések
+
+Ez a "Milliárdos" appunk hivatalos matricája. Másik érdekessége, hogy ez lesz a
+2+2=4 projekt első hivatalos matricája.
+
+<span style="color:red">**Légyszi még ne ragaszd ki nyilvános helyre**</span>,
+még nem élesítettük ezt a kampányt.
