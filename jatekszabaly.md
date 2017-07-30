@@ -15,6 +15,15 @@ olyan közéleti magatartásformákat, melyek széles körű elterjedését hasz
 kívánatosnak tartják. A kampány egy [weboldal][web] köré szerveződik és mindenki
 önkéntes és önfinanszírozó módon vesz benne részt.
 
+# Pénz
+
+A játékot nem lehet pénzzel támogatni. Ha bárki pénzt kér tőled azért mert részt
+vesz ebben a játékban, tudhatod, hogy ő nem ebben a játékban játszik, hanem
+visszaél a játék nevével és a pénzszerzéstől teljesen távol álló céljaival. A
+játék teljesen decentralizált, így a költségeket is a lehető legjobban
+decentralizáljuk. Ha ennek gyakorlatáról többet akarsz tudni olvasd el a
+[Matricázás][programok] programot.
+
 # Célok
 
 A célunk egy mindenki által élhető és élvezhető társadalom létrejöttére való
@@ -26,8 +35,9 @@ Az alapvető közéleti magatartásformák melyeket **támogatunk**:
 
   * józan ész
   * őszinteség
+  * nyitottság
   * tájékozottság
-  * párbeszéd
+  * párbeszéd keresése
   * demokratikus döntéshozatal
   * közpénzekkel való átlátható és felelős gazdálkodás
   * empátia
@@ -35,11 +45,16 @@ Az alapvető közéleti magatartásformák melyeket **támogatunk**:
   * szakértelem
   * a környezet védelme
   * költséghatékonyság
-  * nyílt forráskódú szoftverek használata
+
+Meggyőződésünk, hogy egy társadalomban minél többen értik meg, miért azok a
+társadalmak vonzóbbak, melyekben követik ezeket a magatartásformákat, és minél
+többen építik bele saját elvárásrendszerükbe ezeket, annál hamarabb lesz az
+adott társadalom élhető: kiegyensúlyozott, fejlődő és vidám.
 
 Az alapvető közéleti magatartásformák melyek ellen **küzdünk**:
 
   * ostobaság
+  * erőszak
   * hazugság
   * félreinformálás
   * álhírek terjesztése
@@ -47,19 +62,21 @@ Az alapvető közéleti magatartásformák melyek ellen **küzdünk**:
   * korrupció
   * hűtlen kezelés
   * pazarlás
-  * rasszizmus
+  * rasszizmus és a diszkrimináció egyéb indokolatlan formái
   * antidemokratikus döntéshozatal
   * gyűlöletkeltés
   * a környezet szennyezése
 
-Meggyőződésünk, hogy egy társadalomban minél többen értik meg, miért azok a
-társadalmak vonzóbbak, melyekben követik az általunk is támogatott
-magatartásformákat, és minél többen építik bele saját elvárásrendszerükbe
-ezeket, annál hamarabb lesz az adott társadalom élhető: kiegyensúlyozott,
-fejlődő és vidám.
+Szintén meg vagyunk győződve arról, hogy egy társadalom annál ijesztőbb és
+boldogtalanabb, minél inkább ezeket a magatartásformákat követik benne. Minél
+többen ismerik fel ezeket és minél többen értik meg miként rontják le ezek egy
+társadalom teljesítményét, annál immunisabbá válik az adott társadalom ezekre.
 
-Máshogy megfogalmazva, a 2+2=4 kampány célja a *politikai kereslet*
-színvonalának emelése.
+A mi célunk a tájékoztatás és figyelemfelkeltés. Nem emberek, vagy szervezetek
+ellen küzdünk, hanem magatartásformák ellen.
+
+Máshogy megfogalmazva: **a 2+2=4 kampány célja a *politikai kereslet*
+színvonalának emelése.**
 
 # Eszközök
 
@@ -75,20 +92,36 @@ kifejtésére és szemléltetésére, míg az akciókat figyelemfelkeltésre és
 
 # Részvétel
 
-A játékban mindenki saját felelőségére vesz részt.
+A játék egyik lényegi eleme, hogy a felelősség is decentralizált. Ez azt
+jelenti, hogy játékban mindenki önként és saját felelőségére vesz részt.
 
-A weboldal tartalmát közösen fejlesztjük. Ha észrevételed, javaslatod, ötleted,
-építő jellegű kritikád van azt a játék [Github oldalán][gh] jelezheted az
-[issue tracker][tracker] segítségével, vagy ha az nem megfelelő neked akkor
-küldhetsz üzenetet és patch-eket a <doktordroid@protonmail.com> címre is.
+A játékban kétféleképpen vehetsz részt:
 
-Ha tudod használni a Git-et és/vagy a Github-ot akkor még közvetlenebbül tudsz
-résztvenni a játékban. Sokszor könnyebb megcsinálni a kívánt változtatást, mint
-elmagyarázni valakinek mit is szeretnél. A Github segítségével ezt megteheted, a
-moderátorok pedig eldöntik, elfogadják-e a javasolt változtatásodat. Ha nem
-tudod használni a Git-et és/vagy a Github-ot, akkor tanuld meg. Jól jársz vele.
+  1. végrehajtod valamelyik programot
+  2. részt veszel a játék fejlesztésében
 
+Mielőtt végrehajtanád bármelyik programot fontos, hogy elolvasd annak leírását
+maradéktalanul és hűen kövesd az ott leírtakat. Ha ezektől bármiben is eltérsz,
+akkor egy **másik játékot játszol**.
+
+A weboldal tartalmát közösen fejlesztjük a nyílt forráskódú szoftverfejlesztés
+bevett eszköztárát használva. Ha észrevételed, javaslatod, ötleted, építő
+jellegű kritikád van azt a játék [Github oldalán][gh] jelezheted az [issue
+tracker][tracker] segítségével, vagy ha az nem megfelelő neked akkor küldhetsz
+üzenetet és patch-eket a <doktordroid@protonmail.com> címre is. Fontos, hogy
+mielőtt új *issue*-t nyitsz, megnézd más nem tette-e meg korábban helyetted. A
+duplán jelzett problémákkal nem segíted, hanem ha nem is nagyon, de nehezíted a
+munkánkat.
+
+Sokszor könnyebb megcsinálni a kívánt változtatást, mint elmagyarázni valakinek
+mit is szeretnél. Ha segíteni akarsz, akkor szintén az [issue
+tracker][tracker]-en kell keresned elvégzendő feladatot magadnak.
+
+A játék fejlesztésében való aktív és közvetlen részvételben hatalmas hasznodra
+válhat, ha megtanulod használni a Github-ot, először a webinterface-en
+keresztül, később, ha van kedved rendesen *git*-el.
 
 [web]: https://2m2a4.github.io
 [gh]: https://github.com/2m2a4/2m2a4.github.io
 [tracker]: https://github.com/2m2a4/2m2a4.github.io/issues
+[programok]: /programok
