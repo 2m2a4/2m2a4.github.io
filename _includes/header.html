@@ -1,4 +1,7 @@
-<header class="site-header" role="banner">
+<header class="site-header" role="banner"
+  {% if site.url != "https://2m2a4.github.io" %}
+    style="border-top: 5px solid #d40000;"
+  {% endif %}>
 
   <div class="wrapper">
     {% assign default_paths = site.pages | sort:"order" | map: "path" %}
