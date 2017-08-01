@@ -6,7 +6,7 @@ categories: program
 permalink: /p/2
 excerpt: >
   Az *ingyenesezés* az ingyenes szóróanyagokban terjesztett kormánypropaganda
-  elleni fellépés felemelő eszköze.
+  elleni fellépés pusztító fegyvere.
 ---
 ## Program (L0)
 

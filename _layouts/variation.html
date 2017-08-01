@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <img class="sticker" src="/assets/matricak/{{ page.message }}_{{ page.name }}.svg">
+  </header>
+  {% if page.author %}
+    <span class="post-meta" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+  {% endif %}</p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <h2>Nyomtatásra előkészített anyagok</h2>
+
+  {% for pp in site.prepared %}
+    {% if pp.message == page.message %}
+      {% if pp.variation == page.name %}
+        {% capture variation_name %}/assets/matricak/{{ pp.message }}_{{ pp.variation }}_{{ pp.grid }}_{{ pp.paper }}{% endcapture %}
+        <a href="{{ variation_name }}.pdf">
+          <img class="packed-sticker" src="{{ variation_name }}.png">
+        </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+
+</article>

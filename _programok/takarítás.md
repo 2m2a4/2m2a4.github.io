@@ -6,7 +6,7 @@ categories: program
 permalink: /p/3
 excerpt: >
   A *takarítás* a közösségi tereink mentálhigiéniás karbantartásának hasznos és
-  egyben szórakoztató módja.
+  üdítő formája.
 ---
 ## Program - L0
 
