@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Végleges URL és hitelesítés"
+title: "Végleges URL és a tartalmak hitelesítése"
 date: 2017-07-28 20:00:00 +0200
 categories: site update
 author: Doktor Droid
