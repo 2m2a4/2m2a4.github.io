@@ -11,14 +11,22 @@ exclude: [bin]
 
 defaults:
   - scope:
-      path: "_matricak"
-      type: matricak
+      path: "_messages"
     values:
-      layout: page
+      layout: message
+      display: A
+  - scope:
+      path: "_variations"
+    values:
+      layout: variation
 
 collections:
-  matricak:
+  messages:
     output: true
+  variations:
+    output: true
+  prepared:
+    output: false
   programok:
     output: true
 

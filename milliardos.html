@@ -1,6 +1,6 @@
 ---
 title: "Milliárdos"
-permalink: /milliardos/
+permalink: /a/1
 order: 4
 ---
 <!DOCTYPE html>
@@ -9,7 +9,8 @@ order: 4
 <head>
   <meta charset="UTF-8">
   <title>Milliárdos</title>
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/favicon.png">
+  {% assign red = "" %}{% if site.url != "https://2m2a4.github.io" %}{% assign red = "_red" %}{% endif %}
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/favicon{{ red }}.png">
   <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
   <style media="screen">
     html {
@@ -56,8 +57,58 @@ order: 4
       appearance: none;
     }
 
+    #ezmegmi {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      font-size: 0.666em;
+      color: #707070;
+      cursor: pointer;
+    }
+
+    #help {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -66%);
+      width: 30%;
+      font-size: 0.5em;
+      color: #e0e0e0;
+      border-style: solid;
+      border-color: #c0c0c0;
+      border-width: 0.1em;
+      border-radius: .333em;
+      padding: 0 1em 0.5em 1em;
+      background-color: rgba(24, 24, 24, 0.9);
+      display: none;
+    }
+
+    #logo {
+      position: absolute;
+      right: 10px;
+      bottom: 5px;
+    }
+
+    #logosvg {
+      height: 0.75em;
+    }
+
     .nowrap {
       white-space: nowrap;
+    }
+
+    @media only screen and (orientation: portrait) {
+        #main {
+            width: 85%;
+        }
+
+        #logosvg {
+          height: 1.25em;
+        }
+
+        #ezmegmi {
+          font-size: 1.333em;
+        }
     }
 
     @keyframes koltsegAnim {
@@ -96,46 +147,11 @@ order: 4
       display: none;
     }
 
-    #logo {
-      position: absolute;
-      right: 10px;
-      bottom: 5px;
-    }
-
-    #logosvg {
-      height: 0.75em;
-    }
-
     .blsh {
       position: relative;
       bottom: 0.07em;
     }
 
-    #ezmegmi {
-      position: absolute;
-      left: 10px;
-      bottom: 10px;
-      font-size: 0.666em;
-      color: #707070;
-      cursor: pointer;
-    }
-
-    #help {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -66%);
-      width: 30%;
-      font-size: 0.5em;
-      color: #e0e0e0;
-      border-style: solid;
-      border-color: #c0c0c0;
-      border-width: 0.1em;
-      border-radius: .333em;
-      padding: 0 1em 0.5em 1em;
-      background-color: rgba(24, 24, 24, 0.9);
-      display: none;
-    }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script language="javascript">
@@ -194,12 +210,13 @@ order: 4
     <form>
       <span id="nevelo">A</span>
       <select id="koltsegSelect" onchange="onKoltsegChange(this.value)" autocomplete="off">
-      <option selected value="A|3.4|került|http://24.hu/belfold/2017/07/06/a-vizes-vb-megnyitoja-14-milliarddal-tobbe-kerul-mint-a-sziget-nagyszinpada-az-osszes-fellepovel">vizes vb megnyitója</option>
+      <option value="A|3.4|került|http://24.hu/belfold/2017/07/06/a-vizes-vb-megnyitoja-14-milliarddal-tobbe-kerul-mint-a-sziget-nagyszinpada-az-osszes-fellepovel">vizes vb megnyitója</option>
       <option value="A|140|került|http://www.atv.hu/belfold/20170503-tullepte-a-140-milliardot-a-vizes-vb-koltsege">vizes vb</option>
       <option value="Az|266.4|kerültek|http://hvg.hu/gazdasag/20170630_Erre_koltik_Matolcsy_alapitvanyai_a_kozpenzunket">MNB alapítványai</option>
       <option value="|3700|fog kerülni|http://index.hu/belfold/2014/01/15/paks_ii-bol_megepithetnenk_ujra_a_csalagutat">Paks II.</option>
       <option value="A|5.7|került|https://mno.hu/belfold/kiverte-a-biztositekot-a-kormany-legujabb-plakatkampanya-2406027">Soros kampány</option>
-      <option value="A|3.1|került|https://atlatszo.hu/2017/05/31/3-milliard-forintot-koltott-a-kormany-a-propagandagepre-a-magyarorszag-erosodik-kampanyban/">&quot;Magyarország erősödik&quot; kampány</option>
+      <option selected value="A|3.1|került|https://atlatszo.hu/2017/05/31/3-milliard-forintot-koltott-a-kormany-a-propagandagepre-a-magyarorszag-erosodik-kampanyban">&bdquo;Magyarország erősödik&rdquo; kampány</option>
+      <option value="A|4.2|került|https://blog.atlatszo.hu/2017/06/aprilisban-42-milliard-forintot-koltott-a-kormany-az-allitsuk-meg-brusszelt-kampanyra">&bdquo;Állítsuk meg Brüsszelt!&rdquo; kampány</option>
       <option value="A|10|került|http://hirtv.hu/ahirtvhirei/rekordosszegeket-kolt-iden-a-kormany-propagandara-1398678">Kvóta népszavazás kampánya</option>
       <option value="A|190|kerül|http://index.hu/sport/futball/2017/07/12/hogy_all_a_190_milliardos_puskas_stadion/">Puskás stadion</option>
       <option value="A|13.5|került|https://atlatszo.hu/2016/04/22/stadionlaz-1-resz-eddig-40-milliard-forint-kozpenz-ment-el-az-elkeszult-het-stadionra/">Nagyerdei Stadion</option>
@@ -213,8 +230,8 @@ order: 4
       <span id="darab" class="nowrap">12.3</span>
       <select id="egysegarSelect" onchange="onEgysegarChange(this.value)" autocomplete="off">
       <option value="12500000|beindítani|https://palyaz.hu/mikrovallalkozasok-inditasanak-tamogatasa-palyazat/">mikro vállalkozást</option>
-      <option value="100000000|beindítani">kis vállalkozást</option>
-      <option value="1000000000|beindítani">középvállalkozást</option>
+      <option value="100000000|támogatást nyújtani|https://www.palyazat.gov.hu/vllalkozs">kis vállalkozásnak</option>
+      <option value="1000000000|támogatást nyújtani|https://www.palyazat.gov.hu/vllalkozs">középvállalkozásnak</option>
       <option value="840000000|telepíteni|http://naperomu.hu/s_!prods/i_komplett_rendszerek_9/i_napelem_park_1_mw_32/t_NAPELEM%20PARK%201%20MW%20-%20Komplett%20rendszerek/index.html">1 Mw-os naperőművet</option>
       <option value="500000000|telepíteni|http://hvg.hu/gazdasag/20130805_Tul_eros_a_szel_Fizess">1 Mw-os szélerőművet</option>
       <option value="200000|építeni|http://koos.hu/2016/06/18/magyarorszagi-fajlagos-lakasepitesi-koltsegek">nm családi házat</option>
@@ -247,8 +264,9 @@ order: 4
     <p>
       A <b>Milliárdos</b> egy egyszerű alkalmazás, melynek segítségével érzékelhetővé
       kívánjuk tenni egy milliárd forint vásárlóerejét. A villogó mondatrészekkel tudod
-      kiválasztani milyen nagyobb összeget kívánsz átváltani valami másnak az árára.
-      A számszerű összegek linkjei forrás és háttéranyagokra mutatnak.
+      kiválasztani milyen nagyobb összeget kívánsz átváltani valami más, könnyebben
+      megfogható dolog az árára. A számszerű összegek linkek, melyek a becsült ár
+      forrásanyagára mutatnak.
     </p>
     <p>
       Ez az app - csakúgy mint a 2+2=4 kampány többi része - nyílt forráskódú.

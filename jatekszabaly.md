@@ -88,12 +88,12 @@ színvonalának emelése.**
 A kampány háromféle eszközt és ezek kombinációját alkalmazza céljai eléréséhez:
 
   * programokat
-  * matricákat
-  * webes tartalmakat
+  * üzeneteket és azok célbajuttatásának eszközeit
+  * webes tartalmakat: írásokat, info-grafikákat, appokat.
 
 A matricákat utcai megjelenésre, a webes tartalmakat üzeneteink bővebb
 kifejtésére és szemléltetésére, míg a programokat figyelemfelkeltésre és az
-általunk károsnak tartott magatartásformák ellen való fellépésre használjuk.
+általunk károsnak tartott magatartásformák ellen történő fellépésre használjuk.
 
 # Részvétel
 

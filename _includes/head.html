@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-    {% assign red = "" %}{% if site.url != "https://2m2a4.github.io" %}{% assign red = "_red" %}{% endif %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/favicon{{ red }}.png">
+  {% assign red = "" %}{% if site.url != "https://2m2a4.github.io" %}{% assign red = "_red" %}{% endif %}
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/favicon{{ red }}.png">
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}

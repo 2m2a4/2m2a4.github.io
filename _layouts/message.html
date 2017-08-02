@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">&bdquo;{{ page.message | escape }}&rdquo;</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <h2>Matrica Variációk</h2>
+  {% for variation in site.variations %}
+    {% if variation.message == page.name %}
+      <a href="{{ variation.url }}">
+        <img class="packed-sticker" src="/assets/matricak/{{ page.name }}_{{ variation.name }}.svg">
+      </a>
+    {% endif %}
+  {% endfor %}
+
+  <h2>URL</h2>
+  <p>https://2m2a4.github.io{{ page.url }}</p>
+
+  <h2>QR kód</h2>
+  <img class="small-sticker" src="/assets/matricak/{{ page.name }}_qr.svg">
+
+</article>

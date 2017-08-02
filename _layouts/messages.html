@@ -5,16 +5,16 @@ layout: default
 <div class="home">
 
   <header class="post-header">
-    <h1 class="post-title">Programok</h1>
+    <h1 class="post-title">Matricák</h1>
   </header>
 
   {{ content }}
 
   <ul class="post-list">
-    {% for post in site.programok %}
+    {% for post in site.messages %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">&bdquo;{{ post.message | escape }}&rdquo;</a>
         </h2>
         <p class="post-excerpt">{{ post.excerpt | markdownify }}</p>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

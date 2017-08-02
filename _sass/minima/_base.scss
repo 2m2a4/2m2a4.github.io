@@ -52,12 +52,26 @@ img {
   border-color: #424242;
   border-width: 1px;
   box-shadow: 2px 2px 1px #888888;
+  max-height: $spacing-unit * 15;
 }
 
 .small-sticker {
   @extend .sticker;
   max-width: 66%;
+  max-height: $spacing-unit * 5;
   margin: 0px 10px 10px 0;
+}
+
+.packed-sticker {
+  @extend .sticker;
+  max-height: $spacing-unit * 5;
+  max-width: $spacing-unit * 7;
+  margin: 0px 10px 10px 0;
+}
+
+.packed-sticker-rot {
+  @extend .packed-sticker;
+  transform: rotate(90deg);
 }
 
 /**
@@ -101,7 +115,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h3 {
