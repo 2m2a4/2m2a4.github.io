@@ -15,17 +15,29 @@ Ez a program több egymásst segítő és kiegészítő rutinból tevődik össz
     B. Ragasztás
     C. Tervezés
 
-Ezek közül a játékosok szabadon választják ki azokat a rutinokat amiket kedvük
-van végrehajtani. Mindíg tartsátok szem előtt, hogy **egy játékos** összesen
-csak **tíz matricát** ragaszthat ki. Ez a korlátozás csak a ragasztás rutint
+Ezek közül a játékosok szabadon választják ki azokat a rutinokat melyeket kedvük
+van végrehajtani. Mindíg tartsátok szem előtt, hogy **egy játékos *üzenetenként*
+maximum tíz matricát ragaszthat ki**. Ez a korlátozás csak a ragasztás rutint
 érinti és több célunk is van vele.
+
+A legfontosabb, hogy így mindenkinek lesznek *saját* matricái és ezeket, ha van
+kedve karbantarthatja. Ha valaki leszedi, vagy megrongálja őket,
+visszaállíthatja azokat eredeti állapotukba. Ha látsz olyan megrongált matricát,
+amit ugyan nem te raktál ki, de szívesen helyrehozod, akkor természetesen ezt is
+megteheted, de ettől még nem lesz a sajátod, csak segítettél valamelyik
+játékostársadnak.
+
+Ha egy matricáról kiderült, hogy reménytelen helyre lett kihelyezve, azt át
+lehet rakni máshova, csak meg kell várni előtte, hogy leszedjék az eredeti
+helyéről. Más játékos matricáját természetesen nem helyezheted át, mert
+az illető nem tudna az új helyéről.
 
 Mi akkor tartunk sikeresnek egy programot, ha sokan sok apró erőfeszítéssel
 érnek el látható eredményt. Azért tervezzük a programokat decentralizáltra, hogy
-csökkentsük az egyes játékosra jutó terheket. Az alapvető célkitűzésünk az, hogy
-egy programban való részvétel, ne haladja meg egy tüntetésen való részvétel
+csökkentsük az egyes játékosokra jutó terheket. Az alapvető célkitűzésünk az,
+hogy egy programban való részvétel, ne haladja meg egy tüntetésen való részvétel
 energia- és pénzigényét. Ha minden tíz emberből egy, aki elmegy hasonló ügyek
-mellett tüntetni, résztvesz a játékban, akkor meggyőződésünk szerint látványos
+mellett tüntetni, részt vesz a játékban, akkor meggyőződésünk szerint látványos
 eredményeket érhetünk el.
 
 Egy másik érv a *ragsztás* korlátozása mellett, hogy a 2+2=4 egy
@@ -33,12 +45,9 @@ Egy másik érv a *ragsztás* korlátozása mellett, hogy a 2+2=4 egy
 próbálja kommunikálni a lakosság egy másik része felé és ezért nagyon fontos,
 hogy látható és tudható legyen az üzenet minél szélesebb körű támogatottsága. A
 korlátozás révén ha sok matrica van kiragasztva sejthető, hogy az adott
-üzenet fontos és széles körű a támogatottsága.
+üzenet fontos, és széles körű a támogatottsága.
 
-Arra is próbáljuk ezzel ösztönözni a játékosokat, hogy gondosan végezzék a
-munkájukat: legyenek a matricák szépek, legyenek kihelyezve okosan, úgy hogy
-minél több emberhez eljusson az üzenetük és legyenek a munkában résztvevő
-emberek sokfélék és szimpatikusak.
+A lényeg, hogy egy játékosnak egy *üzenetből* maximum 10 matricája lehet kinn.
 
 # A: Készítés
 
@@ -104,10 +113,11 @@ matricát látsz azt szedd le azonnal!
 Ha van ötleted, időd és energiád tervezz saját 2+2=4-es matricát. Ahoz, hogy
 érvényes legyen a következő dolgoknak kell megfelelnie:
 
-    * szerepelnie kell rajta és leolvashatónak kell lennie a matrica QR kódjának
-    * szerepelnie kell rajta a QR kódban is tárolt URL-nek olvashatóan
-    * szerepelnie kell rajta a matrica "üzenete" olvasatóan
     * fekete-fehérnek kell lennie
+    * rajta kell legyen a matrica "üzenete" olvasatóan
+    * rajta kell legyen a 2+2=4 feliratnak olvashatóan
+    * rajta kell legyen és leolvashatónak kell lennie a matrica QR kódjának
+    * rajta kell legyen a QR kódban is tárolt URL-nek olvashatóan
 
 Ha a terved vektoros formában tárolható és a mérete nem haladja meg a 256
 kilobyte-ot, akkor el is juttathatod hozzánk és ha nekünk is tetszik felrakjuk a
