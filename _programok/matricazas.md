@@ -9,7 +9,7 @@ excerpt: >
   és szeretnéd ha az üzeneteink minél több emberhez eljutnának, akkor ez a program
   neked lett kitalálva.
 ---
-Ez a program több egymásst segítő és kiegészítő rutinból tevődik össze.
+Ez a program több egymást segítő és kiegészítő rutinból tevődik össze.
 
     A. Készítés
     B. Ragasztás
