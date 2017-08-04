@@ -5,9 +5,9 @@ date: 2017-07-28 04:00:00 +0200
 categories: program
 permalink: /p/1
 excerpt: >
-  A *matricázás* a 2+2=4 utcai jelenlétének eszköze. Ha egyetértesz a céljainkkal
-  és szeretnéd ha az üzeneteink minél több emberhez eljutnának, akkor ez a program
-  neked lett kitalálva.
+  A *matricázás* a 2+2=4 utcai jelenlétének eszköze és az a célja, hogy az
+  üzeneteink ne csak a közösségi oldalakon hozánk közel álló, amúgy is hasonlóan
+  gondolkododó emberhez jussanak el, hanem mindenkihez aki fogékony azokra.
 ---
 Ez a program több egymást segítő és kiegészítő rutinból tevődik össze.
 
