@@ -5,7 +5,8 @@ snum: 2
 permalink: /m/2
 date: 2017-07-28 04:00:00 +0200
 excerpt: >
-  A [Milliárdos](/a/1) appunk hivatalos matricája.
+  A [Milliárdos](/a/1) appunk bevezető kampánya. Egyúttal a legelső kampányunk is,
+  úgyhogy ezen teszteljük az ötleteinket a gyakorlatban.
 ---
 ***Mennyi 1 milliárd forint vásárlóereje?*** Ezt minden választónak tudnia kell,
 mert magyarországon a nagyberuházások költsége sokszor sokszorosan meghaladja

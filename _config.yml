@@ -11,9 +11,9 @@ exclude: [bin]
 
 defaults:
   - scope:
-      path: "_messages"
+      path: "_campaigns"
     values:
-      layout: message
+      layout: campaign
       display: A
   - scope:
       path: "_variations"
@@ -21,7 +21,7 @@ defaults:
       layout: variation
 
 collections:
-  messages:
+  campaigns:
     output: true
   variations:
     output: true
