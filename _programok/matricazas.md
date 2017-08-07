@@ -6,14 +6,15 @@ categories: program
 permalink: /p/1
 excerpt: >
   A *matricázás* a 2+2=4 utcai jelenlétének eszköze és az a célja, hogy az
-  üzeneteink ne csak a közösségi oldalakon hozánk közel álló, amúgy is hasonlóan
+  üzeneteink ne csak a közösségi oldalakon hozánk közel álló, hozzánk hasonlóan
   gondolkododó emberhez jussanak el, hanem mindenkihez aki fogékony azokra.
 ---
 Ez a program több egymást segítő és kiegészítő rutinból tevődik össze.
 
-    A. Készítés
-    B. Ragasztás
-    C. Tervezés
+* Készítés
+* Ragasztás
+* Karbantartás
+* Tervezés
 
 Ezek közül a játékosok szabadon választják ki azokat a rutinokat melyeket kedvük
 van végrehajtani. Mindíg tartsátok szem előtt, hogy **egy játékos *üzenetenként*
@@ -32,7 +33,7 @@ lehet rakni máshova, csak meg kell várni előtte, hogy leszedjék az eredeti
 helyéről. Más játékos matricáját természetesen nem helyezheted át, mert
 az illető nem tudna az új helyéről.
 
-Mi akkor tartunk sikeresnek egy programot, ha sokan sok apró erőfeszítéssel
+Mi akkor tartunk sikeresnek egy programot, ha **sokan** sok apró erőfeszítéssel
 érnek el látható eredményt. Azért tervezzük a programokat decentralizáltra, hogy
 csökkentsük az egyes játékosokra jutó terheket. Az alapvető célkitűzésünk az,
 hogy egy programban való részvétel, ne haladja meg egy tüntetésen való részvétel
@@ -40,66 +41,57 @@ energia- és pénzigényét. Ha minden tíz emberből egy, aki elmegy hasonló �
 mellett tüntetni, részt vesz a játékban, akkor meggyőződésünk szerint látványos
 eredményeket érhetünk el.
 
-Egy másik érv a *ragsztás* korlátozása mellett, hogy a 2+2=4 egy
-"lakosságtól-lakosságnak" kampány, vagyis a lakosság egyik részének véleményét
-próbálja kommunikálni a lakosság egy másik része felé és ezért nagyon fontos,
-hogy látható és tudható legyen az üzenet minél szélesebb körű támogatottsága. A
-korlátozás révén ha sok matrica van kiragasztva sejthető, hogy az adott
-üzenet fontos, és széles körű a támogatottsága.
+# Készítés
 
-A lényeg, hogy egy játékosnak egy *üzenetből* maximum 10 matricája lehet kinn.
+* papírszerzés
+* letöltés
+* nyomtatás
+* vágás
+* elosztás
 
-# A: Készítés
-
-    1. papírszerzés
-    2. letöltés
-    3. nyomtatás
-    4. vágás
-    5. elosztás
-
-## A.1: papírszerzés
+## Papírszerzés
 
 Öntapadós nyomtatópapírt a legtöbb *print-shop*-ban tartanak. A nagyobb
 kiszerelésű és ezért lényegesen olcsóbb forrásokról, és a papírokkal kapcsolatos
 egyéb tudnivalókról az erre vonatkozó [wiki][paper-wiki]-ben találsz bővebb
 információt. Ugyanott saját tapasztalataidat is meg tudod osztani.
 
-## A.2: letöltés
+## Letöltés
 
 A letölthető nyomdailag előkészített PDF-eket a matrica adott variációjának
 weboldalán rögtön a leírás alatt találod.
 
-## A.3: nyomtatás
+## Nyomtatás
 
 *Print-shop*-okban általában találsz mindent, ami az első négy pont
 végrehajtásához kell: öntapadós nyomtatópapírt, Internet elérést, nyomtatót és
 vágógépet is. Van olcsóbb módja is a nyomtatásnak, de kétség kívül ez a
 legegyszerűbb.
 
-## A.4: vágás
+## Vágás
 
 A nyomdailag előkészített anyagok szélén találsz vágójeleket, melyek
-segítségével vonalzóval, sniccerrel, vagy vágógéppel könnyen méretre vághatod a
-matricákat.
+segítségével vonalzóval és sniccerrel, vagy vágógéppel könnyen méretre vághatod
+a matricákat.
 
-## A.5: elosztás
+## Elosztás
 
 A matricákból bárkinek adhatsz, de törekedj arra, hogy olyan valaki adj, aki nem
 egyenest a szemétbe dobja azokat. Ha mások által tulajdonolt helyiségben akarsz
 kihelyezni szabadon elvehető példányokat, mindenképp kérdezd meg erről a
 tulajdonost, vagy annak felelős képviselőjét.
 
-# B: Ragasztás
+# Ragasztás
 
-    1. beszerzés
-    2. kiragasztás (max: 10)
+* beszerzés
+* kiragasztás (max: 10)
 
-## B.1: beszerzés
+## Beszerzés
 
-A kiragasztandó matricáidat vagy magadnak nyomtatod (A), vagy mások által
-nyomtatott példányt szerzel.
+A kiragasztandó matricáidat vagy magadnak nyomtatod, vagy mások által nyomtatott
+példányt szerzel.
 
-## B.2: kiragasztás
+## Kiragasztás
 
 Válaszd ki gondosan a helyet ahova kiragasztod a matricáidat. Gondold át azt is,
 milyen méretű és formátumú matrica illik legjobban a kiválasztott helyre. Más
@@ -108,16 +100,16 @@ matricák jelenléte jelezheti, hogy az adott pontot nem takarítják rendszeres
 Közlekedési táblák jellel ellátott oldalára soha ne ragassz matricát! Ha ilyen
 matricát látsz azt szedd le azonnal!
 
-# C: Tervezés
+# Tervezés
 
 Ha van ötleted, időd és energiád tervezz saját 2+2=4-es matricát. Ahoz, hogy
 érvényes legyen a következő dolgoknak kell megfelelnie:
 
-    * fekete-fehérnek kell lennie
-    * rajta kell legyen a matrica "üzenete" olvasatóan
-    * rajta kell legyen a 2+2=4 feliratnak olvashatóan
-    * rajta kell legyen és leolvashatónak kell lennie a matrica QR kódjának
-    * rajta kell legyen a QR kódban is tárolt URL-nek olvashatóan
+* fekete-fehérnek kell lennie
+* rajta kell legyen a matrica "üzenete" olvasatóan
+* rajta kell legyen a 2+2=4 feliratnak olvashatóan
+* rajta kell legyen és leolvashatónak kell lennie a matrica QR kódjának
+* rajta kell legyen a QR kódban is tárolt URL-nek olvashatóan
 
 Ha a terved vektoros formában tárolható és a mérete nem haladja meg a 256
 kilobyte-ot, akkor el is juttathatod hozzánk és ha nekünk is tetszik felrakjuk a

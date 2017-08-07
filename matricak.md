@@ -1,9 +1,7 @@
 ---
-layout: messages
-title: "Matricák"
-permalink: /matricak/
+layout: campaigns
+title: "Kampányok"
+permalink: /kampanyok/
 order: 3
 ---
-Itt találod meg a [*matricázáshoz*](/p/1) szükséges anyagokat az üzeneteik
-szerint csoportosítva. Ha először matricázol mindenképp olvasd el alaposan a
-játék szabályait, mert nem mindegyik teljesen magától értetődő.
+Itt találod a kampányainkat és a bennük való részvételhez szükséges anyagokat.

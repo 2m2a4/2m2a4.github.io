@@ -11,10 +11,10 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <p class="post-meta">
           <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-            {{ post.date | date: date_format }}
+            {% assign d = post.date %}
+            {% include date.html %}
           </time>
           {% if post.author %}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
