@@ -12,7 +12,7 @@ korai korlátozni valamit, ami még el sem indult. Nem baj, ha túl sok lesz a
 matrica az utcákon megint bevezetjük. :D
 
 Kicsit talán sikerült javítanunk az oldal átláthatóságán is, ami az új tartalmak
-befogadása szampontjából fontos.
+befogadása szempontjából fontos.
 
 A matricák bizonyos kiosztásaira került középre is vágójel, ami eddig nem volt
 és okozhatott bosszúságot vágás közben. Bocs, javítottuk!
