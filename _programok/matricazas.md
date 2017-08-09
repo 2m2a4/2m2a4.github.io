@@ -9,37 +9,22 @@ excerpt: >
   üzeneteink ne csak a közösségi oldalakon hozánk közel álló, hozzánk hasonlóan
   gondolkododó emberhez jussanak el, hanem mindenkihez aki fogékony azokra.
 ---
-Ez a program több egymást segítő és kiegészítő rutinból tevődik össze.
+Ez a program több egymást segítő és kiegészítő rutinból áll. Ezek közül a
+játékosok szabadon választják ki azokat melyekben részt kívánnak venni.
 
+* Tervezés
 * Készítés
 * Ragasztás
 * Karbantartás
-* Tervezés
 
-Ezek közül a játékosok szabadon választják ki azokat a rutinokat melyeket kedvük
-van végrehajtani. Mindíg tartsátok szem előtt, hogy **egy játékos *üzenetenként*
-maximum tíz matricát ragaszthat ki**. Ez a korlátozás csak a ragasztás rutint
-érinti és több célunk is van vele.
-
-A legfontosabb, hogy így mindenkinek lesznek *saját* matricái és ezeket, ha van
-kedve karbantarthatja. Ha valaki leszedi, vagy megrongálja őket,
-visszaállíthatja azokat eredeti állapotukba. Ha látsz olyan megrongált matricát,
-amit ugyan nem te raktál ki, de szívesen helyrehozod, akkor természetesen ezt is
-megteheted, de ettől még nem lesz a sajátod, csak segítettél valamelyik
-játékostársadnak.
-
-Ha egy matricáról kiderült, hogy reménytelen helyre lett kihelyezve, azt át
-lehet rakni máshova, csak meg kell várni előtte, hogy leszedjék az eredeti
-helyéről. Más játékos matricáját természetesen nem helyezheted át, mert
-az illető nem tudna az új helyéről.
-
-Mi akkor tartunk sikeresnek egy programot, ha **sokan** sok apró erőfeszítéssel
-érnek el látható eredményt. Azért tervezzük a programokat decentralizáltra, hogy
-csökkentsük az egyes játékosokra jutó terheket. Az alapvető célkitűzésünk az,
-hogy egy programban való részvétel, ne haladja meg egy tüntetésen való részvétel
-energia- és pénzigényét. Ha minden tíz emberből egy, aki elmegy hasonló ügyek
-mellett tüntetni, részt vesz a játékban, akkor meggyőződésünk szerint látványos
-eredményeket érhetünk el.
+Mi akkor tartunk sikeresnek egy programot, ha **sokan sok apró erőfeszítés**
+révén érnek el **látható eredményt**. Azért tervezzük a programokat
+decentralizáltra, hogy csökkentsük az egyes játékosokra jutó mindenféle
+terheket. Stresszt, pénzt, időt. Az alapvető célkitűzésünk az, hogy egy
+programban való részvétel, ne haladja meg egy tüntetésen való részvétel energia-
+és pénzigényét. Ha minden ember, aki elmegy hasonló ügyek mellett tüntetni,
+részt vesz a játékban is, akkor meggyőződésünk szerint látványos eredményeket
+érhetünk el.
 
 # Készítés
 
@@ -58,28 +43,28 @@ információt. Ugyanott saját tapasztalataidat is meg tudod osztani.
 
 ## Letöltés
 
-A letölthető nyomdailag előkészített PDF-eket a matrica adott variációjának
-weboldalán rögtön a leírás alatt találod.
+A nyomdailag előkészített PDF-eket a matrica adott variációjának
+oldaláról lehet letölteni.
 
 ## Nyomtatás
 
-*Print-shop*-okban általában találsz mindent, ami az első négy pont
-végrehajtásához kell: öntapadós nyomtatópapírt, Internet elérést, nyomtatót és
-vágógépet is. Van olcsóbb módja is a nyomtatásnak, de kétség kívül ez a
-legegyszerűbb.
+*Print-shop*-okban általában fellelhető minden, ami az első négy pont
+végrehajtásához kell: öntapadós nyomtatópapír, Internet elérés, nyomtató és
+vágógép is. Egy A4-es oldal nyomtatása így kb. 100 forintra jön ki, vagyis
+attól függően, hogy melyik kiosztásról beszélünk, egy matrica olyan 25-13
+forint között jön ki így. Van olcsóbb módja is a nyomtatásnak, de kétség kívül
+ez a legegyszerűbb.
 
 ## Vágás
 
-A nyomdailag előkészített anyagok szélén találsz vágójeleket, melyek
-segítségével vonalzóval és sniccerrel, vagy vágógéppel könnyen méretre vághatod
-a matricákat.
+A nyomdailag előkészített anyagok szélén található vágójelek segítségével
+vonalzóval és sniccerrel, vagy vágógéppel könnyen és gyorsan méretre vághatóak a
+matricák.
 
 ## Elosztás
 
-A matricákból bárkinek adhatsz, de törekedj arra, hogy olyan valaki adj, aki nem
-egyenest a szemétbe dobja azokat. Ha mások által tulajdonolt helyiségben akarsz
-kihelyezni szabadon elvehető példányokat, mindenképp kérdezd meg erről a
-tulajdonost, vagy annak felelős képviselőjét.
+Az elkészült matricákból a játékosok bárkinek adnak, de próbálnak arra
+törekedni, hogy az illető ne egyből a szemétbe dobja azokat.
 
 # Ragasztás
 
@@ -88,17 +73,15 @@ tulajdonost, vagy annak felelős képviselőjét.
 
 ## Beszerzés
 
-A kiragasztandó matricáidat vagy magadnak nyomtatod, vagy mások által nyomtatott
-példányt szerzel.
+A játékosok a matricáikat vagy maguknak nyomtatják, vagy mások által nyomtatott
+példányt szereznek.
 
 ## Kiragasztás
 
-Válaszd ki gondosan a helyet ahova kiragasztod a matricáidat. Gondold át azt is,
-milyen méretű és formátumú matrica illik legjobban a kiválasztott helyre. Más
-matricák jelenléte jelezheti, hogy az adott pontot nem takarítják rendszeresen.
-
-Közlekedési táblák jellel ellátott oldalára soha ne ragassz matricát! Ha ilyen
-matricát látsz azt szedd le azonnal!
+A játékosok gondosan választják ki a helyet ahova a matricáikat kiragasztják.
+Mivel a program lényege, hogy a játék híre és üzenetei minél messzebb
+eljussanak, ezért a játékosok a matricákat is igyekeznek érdekes és nem
+feltétlenül a lakóhelyükhöz közeli helyre kiragasztani.
 
 # Tervezés
 
@@ -114,5 +97,9 @@ Ha van ötleted, időd és energiád tervezz saját 2+2=4-es matricát. Ahoz, ho
 Ha a terved vektoros formában tárolható és a mérete nem haladja meg a 256
 kilobyte-ot, akkor el is juttathatod hozzánk és ha nekünk is tetszik felrakjuk a
 többi variáció közé.
+
+# Karbantartás
+
+Vannak akik, a mások által leszedett és megrongált matricákat hozzák rendbe.
 
 [paper-wiki]: https://github.com/2m2a4/2m2a4.github.io/wiki/Pap%C3%ADrok-beszerz%C3%A9se
