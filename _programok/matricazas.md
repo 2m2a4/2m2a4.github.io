@@ -69,7 +69,7 @@ törekedni, hogy az illető ne egyből a szemétbe dobja azokat.
 # Ragasztás
 
 * beszerzés
-* kiragasztás (max: 10)
+* kiragasztás
 
 ## Beszerzés
 
