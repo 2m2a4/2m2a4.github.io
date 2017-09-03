@@ -10,7 +10,7 @@ excerpt: >
   gondolkododó emberhez jussanak el, hanem mindenkihez aki fogékony azokra.
 ---
 Ez a program több egymást segítő és kiegészítő rutinból áll. Ezek közül a
-játékosok szabadon választják ki azokat melyekben részt kívánnak venni.
+játékosok szabadon választják ki azokat, melyekben részt kívánnak venni.
 
 * Tervezés
 * Készítés
@@ -63,13 +63,13 @@ matricák.
 
 ## Elosztás
 
-Az elkészült matricákból a játékosok bárkinek adnak, de próbálnak arra
-törekedni, hogy az illető ne egyből a szemétbe dobja azokat.
+Az elkészült matricákból a játékosok bárkinek adhatnak, de próbálnak arra
+törekedni, hogy olyannak adjanak, aki nem egyből a szemétbe dobja azt.
 
 # Ragasztás
 
 * beszerzés
-* kiragasztás (max: 10)
+* kiragasztás
 
 ## Beszerzés
 
@@ -95,11 +95,11 @@ Ha van ötleted, időd és energiád tervezz saját 2+2=4-es matricát. Ahoz, ho
 * rajta kell legyen a QR kódban is tárolt URL-nek olvashatóan
 
 Ha a terved vektoros formában tárolható és a mérete nem haladja meg a 256
-kilobyte-ot, akkor el is juttathatod hozzánk és ha nekünk is tetszik felrakjuk a
-többi variáció közé.
+kilobyte-ot, akkor fel tudod tölteni a Wiki-be. Tök jó ha te magad előkészíted
+nyomtatásra és vágásra.
 
 # Karbantartás
 
-Vannak akik, a mások által leszedett és megrongált matricákat hozzák rendbe.
+Vannak, akik a mások által leszedett és megrongált matricákat hozzák rendbe.
 
 [paper-wiki]: https://github.com/2m2a4/2m2a4.github.io/wiki/Pap%C3%ADrok-beszerz%C3%A9se
