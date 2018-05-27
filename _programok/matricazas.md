@@ -64,7 +64,7 @@ matricák.
 ## Elosztás
 
 Az elkészült matricákból a játékosok bárkinek adhatnak, de próbálnak arra
-törekedni, hogy az illető ne egyből a szemétbe dobja azokat.
+törekedni, hogy olyannak adjanak, aki nem egyből a szemétbe dobja azt.
 
 # Ragasztás
 
@@ -95,8 +95,8 @@ Ha van ötleted, időd és energiád tervezz saját 2+2=4-es matricát. Ahoz, ho
 * rajta kell legyen a QR kódban is tárolt URL-nek olvashatóan
 
 Ha a terved vektoros formában tárolható és a mérete nem haladja meg a 256
-kilobyte-ot, akkor el is juttathatod hozzánk és ha nekünk is tetszik felrakjuk a
-többi variáció közé.
+kilobyte-ot, akkor fel tudod tölteni a Wiki-be. Tök jó ha te magad előkészíted
+nyomtatásra és vágásra.
 
 # Karbantartás
 
