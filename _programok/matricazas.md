@@ -10,7 +10,7 @@ excerpt: >
   gondolkododó emberhez jussanak el, hanem mindenkihez aki fogékony azokra.
 ---
 Ez a program több egymást segítő és kiegészítő rutinból áll. Ezek közül a
-játékosok szabadon választják ki azokat, melyekben részt kívánnak venni.
+játékosok szabadon választják ki azokat, amelyekben részt kívánnak venni.
 
 * Tervezés
 * Készítés
@@ -21,7 +21,7 @@ Mi akkor tartunk sikeresnek egy programot, ha **sokan sok apró erőfeszítés**
 révén érnek el **látható eredményt**. Azért tervezzük a programokat
 decentralizáltra, hogy csökkentsük az egyes játékosokra jutó mindenféle
 terheket. Stresszt, pénzt, időt. Az alapvető célkitűzésünk az, hogy egy
-programban való részvétel, ne haladja meg egy tüntetésen való részvétel energia-
+programban való részvétel ne haladja meg egy tüntetésen való részvétel energia-
 és pénzigényét. Ha minden ember, aki elmegy hasonló ügyek mellett tüntetni,
 részt vesz a játékban is, akkor meggyőződésünk szerint látványos eredményeket
 érhetünk el.
